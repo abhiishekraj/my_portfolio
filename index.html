@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHISHEK portfolio Website | HTML , CSS, Javascript</title>
+    <link rel="shortcut Icon" href="Portfolio/assets/logo.png">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://kit.fontawesome.com/45dad8819d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="main-container">
+
+    <header>
+    
+        <!-- Brand Section -->
+        <div class="brand-info">
+            <img src="Portfolio/assets/logo.png" alt="logo">
+            <h2>Portfolio</h2>
+        </div>
+
+        <!-- Menu Section -->
+        <div class="menu-area">
+
+            <input type="checkbox" id="menu-toggle" hidden>
+
+            <!-- Menu Icon -->
+            <label for="menu-toggle" class="menu-icon">
+                <i class="ph ph-list"></i>
+            </label>
+
+            <!-- Overlay -->
+            <label for="menu-toggle" id="overlay"></label>
+
+            <!-- Navigation -->
+            <nav>
+                <a href="#" style="--i:1" data-tab = "home" class="navlink active"> Home</a>
+                <a href="#" style="--i:2" data-tab = "services" class="navlink"> Services</a>
+                <a href="#" style="--i:3" data-tab = "about" class="navlink"> About</a>
+                <a href="#" style="--i:4" data-tab = "projects" class="navlink"> Projects</a>
+                <a href="#" style="--i:5" data-tab = "contacts" class="navlink"> Contact</a>
+            </nav>
+        </div>
+
+    </header>
+    <SECTION id="home" class="content active">
+        <div class="details">
+            <h2>
+                <span>Abhishek</span>
+                Yadav
+            </h2>
+            <h3>
+                I`m
+                <span id="typing-span"></span>
+            </h3>
+            <p>Hi, I`m Abhishek, an MCA student and a passionate Full Stack Developer. I love learning new technologies and building modern web applications. I also have some experience in video editing.</p>
+            <div class="bottom">
+                <button class="btn">Download CV</button>
+                <div class="social-icons">
+                <a href="#">
+                    <i class="fa-brands fa-square-linkedin"></i>
+                </a>
+                <a href="#">
+
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+               
+            </div>
+            </div>
+            
+        </div>
+
+        <div class="img-container">
+            <img src="Portfolio/assets/ahishek1.jpeg"alt="Prifile picture" title="profile picture" loading="lazy" />
+        </div>
+    </SECTION>
+    <section id="services" class="content">
+        <div class="services">
+            <h2> My <span>Services</span></h2>
+            <div class="service-list">
+                
+            <!-- <div class="box">
+                    <div class="head-icon">
+                        <i class="ph ph-code"></i>
+                        <span>
+                        <i class="ph ph-arrow-down"></i>
+                        </span>
+                    </div>
+                    <div> 
+                        <h3>Website Developer</h3>
+                        <span class="spacer"></span>
+                        <p>
+                            I build responsive and modern websites using HTML, CSS, JavaScript, React and Tailwind. 
+                            I focus on performance, scalability and user-friendly design for better experience.
+                        </p>
+                    </div>
+                
+                </div> -->
+                
+            </div>
+
+
+        </div>
+    </section>
+    <section id="about" class="content">
+        <div class="slidebar">
+            <h3>Why Hire Me ?</h3>
+            <p>As a passionate full-stack developer, I bring strong fundamentals, hands-on project experience, and a continuous learning mindset. I may be at the start of my professional journey, but I’m committed to delivering high-quality work, adapting quickly, and growing with every challenge I take on.
+</p>
+            <div class="tabs">
+                <span data-section="experience" class ="tab">Experience</span>
+                <span data-section="education" class ="tab">Education</span>
+                <span data-section="skills" class ="tab"> Skills</span>
+                <span data-section="about-me" class ="tab">About Me </span>
+               
+            </div>
+        </div>
+
+        <aside id="experience" class="tab-content active">
+            <h2>My <span>Experience</span></h2>
+            <p>Here are some of my professional experiences that showcase my skills and dedication in web development and collaboration</p>
+            <div class="experience-list">
+                <div class="experience-box">
+                    <h4>2023 - 2024</h4>
+                    <h3>Full Stack Developer</h3>
+                    <div class="company-name">
+                        <span></span>
+                        <p>Apna Company</p>
+                    </div>
+                    <p>Developed and maintained responsive web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality solutions and improved application performance by 40%.</p>
+                </div>
+                <div class="experience-box">
+                    <h4>2022 - 2023</h4>
+                    <h3>Frontend Developer</h3>
+                    <div class="company-name">
+                        <span></span>
+                        <p>TechStart Solutions</p>
+                    </div>
+                    <p>Built dynamic user interfaces using HTML5, CSS3, and JavaScript. Implemented responsive designs for mobile and desktop platforms. Worked with designers to ensure pixel-perfect implementation of UI designs.</p>
+                </div>
+                <div class="experience-box">
+                    <h4>2021 - 2022</h4>
+                    <h3>Junior Web Developer</h3>
+                    <div class="company-name">
+                        <span></span>
+                        <p>WebXcel Agency</p>
+                    </div>
+                    <p>Assisted in developing and debugging web applications. Performed code reviews and maintained code quality standards. Gained hands-on experience with version control, testing, and deployment processes.</p>
+                </div>
+            </div>
+        </aside> 
+        
+
+        <aside id="education" class="tab-content">
+            <h2>My <span>Education</span></h2>
+            <p>Here are my educational qualifications that I have obtained throughout my academic journey.</p>
+            <div class="education-list">
+                <div class="education-box">
+                    <h4>2025 - current </h4>
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <div class="company-name">
+                        <span></span>
+                        <p>Chandigarh University , Unnao</p>
+                    </div>
+                    <p>Specialized in full-stack web development and software engineering. Completed projects in web technologies, database management, and software architecture.</p>
+                </div>
+                <div class="education-box">
+                    <h4>2022 - 2025</h4>
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <div class="company-name">
+                        <span></span>
+                        <p>Araybhatth University , Patna</p>
+                    </div>
+                    <p>Strong foundation in computer science fundamentals, programming languages, and data structures. Participated in academic projects and coding competitions.</p>
+                </div>
+                <div class="education-box">
+                    <h4>2020 - 2022</h4>
+                    <h3>Senior Secondary (XII)</h3>
+                    <div class="company-name">
+                        <span></span>
+                        <p>Gaya College , Gaya</p>
+                    </div>
+                    <p>Excelled in Science stream with focus on Physics, Chemistry, and Mathematics. Developed strong analytical and problem-solving skills.</p>
+                </div>
+            </div>      
+
+            
+        </aside>
+
+        <aside id="skills" class="tab-content">
+            <h2>My <span>Skills</span></h2>
+            <p>Here are some of the skills that I have acquired and honed over the years, which I believe will be valuable in my professional endeavors.</p>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-css3"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-react"></i>
+                    <p>React</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-node"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-python"></i>
+                    <p>Python</p>
+                </div>
+            </div>
+        </aside>
+
+        <aside id="about-me" class="tab-content">
+            <h2>About <span>Me</span></h2>
+            <p>Hi, I`m Abhishek, an MCA student and a passionate Full Stack Developer. I love learning new technologies and building modern web applications. I also have some experience in video editing.</p> 
+            <div class="my-info">
+                <div class="info-list">
+                    <h3>Name</h3>
+                    <p>Abhishek Yadav</p>
+                </div>
+                <div class="info-list">
+                    <h3>Email</h3>
+                    <p>abhishekyadav@example.com</p>
+            </div>
+            
+        </aside>
+    </section>
+    <section id="projects" class="content">
+        <div class="projects-container">
+            <h2>My <span>Projects</span></h2>
+            <p>Here are some of my notable projects that showcase my skills and expertise in web development.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fa-solid fa-dumbbell"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gym Registration Website</h3>
+                        <p class="project-tech">React • Node.js • MongoDB</p>
+                        <p class="project-description">A comprehensive gym management system with user registration, membership plans, and workout tracking. Features include admin dashboard, member profiles, and payment integration.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">
+                                <i class="fa-brands fa-github"></i> Code
+                            </a>
+                            <a href="#" class="btn-link">
+                                <i class="fa-solid fa-globe"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Responsive Portfolio Website</h3>
+                        <p class="project-tech">HTML5 • CSS3 • JavaScript</p>
+                        <p class="project-description">A modern, fully responsive portfolio website with smooth animations, dark theme, and mobile-first design. Includes sections for projects, skills, experience, and contact information.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">
+                                <i class="fa-brands fa-github"></i> Code
+                            </a>
+                            <a href="#" class="btn-link">
+                                <i class="fa-solid fa-globe"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="content">
+        <div class="contact-container">
+            <div class="contact-left">
+                <h2>Let's <span>Work</span> <br>Together</h2>
+                <p>I'm always excited to hear about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out! I'll do my best to get back to you as soon as possible.</p>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 7491018988</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>itzabhi4169@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Lucknow, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-btn" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-btn" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-btn" title="Twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-right" id="contact-form">
+                <div class="contacts-header">
+                    <h2>Contact <span>Me!</span></h2>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Message Subject">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+</div>
+
+<script src="scripts/script.js" type="module" defer></script>
+<script src="scripts/about.js" type="module" defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init({
+          publicKey: "Ymg1JLb596tMYTk0N",
+        });
+    })();
+</script>
+<script src="scripts/script.js" type="module" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<div id="msgModal" class="modal-overlay">
+    <div class="modal-content" id="modalBox">
+        <i id="modalIcon" class="fa-solid"></i>
+        <h2 id="modalText"></h2>
+    </div>
+</div>
+
+</body>
+</html>
